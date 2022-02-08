@@ -12,3 +12,7 @@ button{
 div{
     margin: 35px 0;
 }
+
+textarea{
+    resize: none;
+}
