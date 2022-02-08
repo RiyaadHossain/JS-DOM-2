@@ -11,9 +11,15 @@
     <!-- Header Part -->
     <h1 id="header">Event Handler</h1>
     <button id="getBack">Get Back</button>
+
+    <!-- =============== Some Ways of handling Events =============== -->
     <div>
       <!-- First Way -->
-      <button id="butto" onclick="document.body.style.backgroundColor = '#1C8D73'" onclick="document.getElementById('butto').style.color = 'white'">
+      <button
+        id="butto"
+        onclick="document.body.style.backgroundColor = '#1C8D73'"
+        onclick="document.getElementById('butto').style.color = 'white'"
+      >
         Make It Green
       </button>
 
@@ -28,8 +34,24 @@
 
       <!-- Sixth Way  -->
       <button id="green2">Make It Green2</button>
-
     </div>
+    <!-- =============== Some Ways of handling Events ^ =============== -->
+
+
+    <!-- =============== Most Common ways of handling Events  =============== -->
+    <div>
+      <h4 id="demo"></h4>
+      <button onclick="common1()">Common Way 1: Onclick</button>
+      <button id="common2">Common Way 2: Directly Event Listner</button>
+    </div>
+    <!-- =============== Most Common ways of handling Events ^  =============== -->
+
+
+    <!-- =============== Add Text using "input" Tag ===============  -->
+    <h4 id="input_text"></h4>
+    <input type="text" id="input_field">
+    <button id="add_btn">Add Text</button>
+    <!-- =============== Add Text using "input" Tag =============== ^ -->
 
     <script src="JS/dom.js"></script>
   </body>

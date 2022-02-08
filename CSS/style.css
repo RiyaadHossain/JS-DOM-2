@@ -1,14 +1,14 @@
 button{
-    padding: 10px 30px;
+    padding: 8px 20px;
     outline: none;
     border: none;
-    background-color: rgb(149, 176, 226);
+    background-color: rgb(181, 197, 226);
     border-radius: 12px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 22px;
     margin: 12px;
 }
 
 div{
-    margin: 25px 0;
+    margin: 35px 0;
 }
