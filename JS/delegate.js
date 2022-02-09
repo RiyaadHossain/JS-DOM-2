@@ -12,7 +12,7 @@ for (const item of items) {
 document.getElementById("addBtn").addEventListener("click", function(){
     const li = document.createElement("li");
     li.innerText = "You Have come here to Die :G"
-    li.classList = "class"
+    li.classList.add("class");
     const ul = document.getElementById("list_con");
     ul.appendChild(li);
 
@@ -24,7 +24,7 @@ document.getElementById("addBtn").addEventListener("click", function(){
         // document.getElementById("list_con").removeChild(item);
 
         // Second Way:
-        event.target.parentNode.removeChild(event.target)
+        event.target.parentNode.removeChild(event.target);
       });
     }
 })
